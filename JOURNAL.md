@@ -111,3 +111,7 @@ added the relief cuts/space for it to click/whatever you call em.
 since mx switches need 1.5mm plates, and I used 3mm plate, i made a 0.5mm cut on the bottom 1.5mm of the plate so it like allows it to click in instead of friction fit
 
 
+imma write it tmrw, not bothered rn
+
+Time spent: 2 hours 30 mins
+
