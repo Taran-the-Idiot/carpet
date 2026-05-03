@@ -110,8 +110,75 @@ added the relief cuts/space for it to click/whatever you call em.
 
 since mx switches need 1.5mm plates, and I used 3mm plate, i made a 0.5mm cut on the bottom 1.5mm of the plate so it like allows it to click in instead of friction fit
 
+![bleh](https://cdn.hackclub.com/019dec72-22fd-77ca-a92e-7cd679c9228d/Screen%20Shot%202026-05-02%20at%2011.00.14%20pm.png)
 
-imma write it tmrw, not bothered rn
+imported a servo model into the cad. and lowkey, its pretty big. like really big. and das not very sigmer. so liek, i should probably change that.
+
+Mr nimit told me to use an n20 motor cuz those are small, so thats what I did.
+
+the pcb will stay the same shape so I dont really need to swap that out but I will still need to add in a transistor and change that stuff up a bit. however thats a problem for future me, not now me.
+
+![bleh](https://cdn.hackclub.com/019decac-f3db-7ab8-8144-6e69fe917990/Screen%20Shot%202026-05-02%20at%2011.43.10%20pm.png)
+
+N20 motors placed
+
+![here](https://cdn.hackclub.com/019decad-3c95-7f5d-99e3-e285956d95ae/Screen%20Shot%202026-05-02%20at%2011.43.20%20pm.png)
+
+Here is what it looks like on the bottom, I might thin out the walls where the motors are so they can have more shaft sticking out.
+
+![bazinga](https://cdn.hackclub.com/019decae-92b6-7ea2-8d1f-5fc72fbc719c/Screen%20Shot%202026-05-02%20at%2011.44.39%20pm.png)
+
+Extend walls
+
+
+![extend downwards](https://cdn.hackclub.com/019decae-df5d-7b03-aeb2-cae23c0c1af1/Screen%20Shot%202026-05-02%20at%2011.50.20%20pm.png)
+
+extend downwards and make a hole where the shaft is. the hole is 6mm diameter while the shaft has a 3mm diameter. this way it has wiggle room and room for me to make mistakes.
+
+![motoa](https://cdn.hackclub.com/019decb0-9d72-77be-9bd4-05ff350ce7fa/Screen%20Shot%202026-05-02%20at%2011.50.30%20pm.png)
+
+Here is what it looks like with the motors in. I will need to make a mount for the motors. I dont wanna just hot glue them.
+
+![brotato](https://cdn.hackclub.com/019ded64-df01-71b8-a335-8170dbb81fb2/Screen%20Shot%202026-05-02%20at%2011.55.30%20pm.png)
+
+wheel. it is being made. wheel go wheel and wheel go spin.
+
+![image](https://cdn.hackclub.com/019deda2-78e9-7c22-b6f7-84fca705649a/Screen%20Shot%202026-05-03%20at%2012.07.51%20am.png)
+
+Gave it triangular cutout thingies to reduce weight and stuff(lies its cuz it looks cool)
+
+Also gave it an indent in the middle. will use that indent to either put a bunch of rubber bands or have a tpu insert for grip cuz pla aint gonna cut it
+
+![phil](https://cdn.hackclub.com/019deda8-35a9-7707-bd0e-e41fb58942c5/Screen%20Shot%202026-05-03%20at%2012.11.17%20am.png)
+
+a little fillet goes a long way
+
+![fill](https://cdn.hackclub.com/019dede8-7ef7-7c41-84b9-1cc118f3a0ef/Screen%20Shot%202026-05-03%20at%2012.21.50%20am.png)
+
+added a lot more fillets. this is done for now but im not 100% happy with how it turned out so expect a redesign in the future.
 
 Time spent: 2 hours 30 mins
+
+## 3rd of May 
+
+Didnt do too much today
+
+![image](https://cdn.hackclub.com/019dede9-7d4f-7593-893a-78ba167fad13/Screen%20Shot%202026-05-03%20at%209.26.32%20pm.png)
+
+I just narrowed down the hole for the encoder
+
+I also did a bit of research and found out that the n20 motors have no real mounting holes. meaning I will be infact hot glueing this to the case. but I will also probably have a sandwich with some screws there for the main holding mech.
+
+![made these for the motors](https://cdn.hackclub.com/019dee04-c4ad-7115-a425-c673fe4eb62a/Screen%20Shot%202026-05-03%20at%2011.26.01%20pm.png)
+
+made these for the motors. its cool and holds them in place
+
+![potato](https://cdn.hackclub.com/019dee0e-9b3e-7333-89e4-d6d594a90114/Screen%20Shot%202026-05-03%20at%2011.36.46%20pm.png)
+
+Now I added these to cover the top. will add screw holes in later but the plan is to have these in with hot glue and then also screwed in with the brace. I also need to figure out how to get the wires around the big thing I made so will also need to figure that out
+
+But those are problems for tomorrow 
+
+Time spent: 30 mins
+
 
