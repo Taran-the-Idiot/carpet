@@ -508,6 +508,22 @@
       {
         "netclass": "POWER",
         "pattern": "+5V"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "M1 P1"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "M1 P2"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "M2 P1"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "M2 P2"
       }
     ]
   },
