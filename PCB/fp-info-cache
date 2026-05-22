@@ -1,4 +1,4 @@
-25651505100752966
+25655103342961715
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -95956,6 +95956,13 @@ Cherry MX keyswitch 1.00u PCB
 2
 2
 Taranium-libs
+Taranium_Pico
+
+
+0
+25
+22
+Taranium-libs
 USB-C-SMD_20P-P0.50-L6.5-W8.9
 
 
@@ -102794,6 +102801,13 @@ Varistor VF
 0
 2
 2
+easyeda2kicad
+SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL
+USBLC6-2SC6
+
+0
+6
+6
 easyeda2kicad
 SW-SMD_L3.9-W3.0-P4.45
 
