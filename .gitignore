@@ -3,3 +3,9 @@ PCB/PCB-backups
 
 PCB/~PCB.kicad_pcb.lck
 PCB/~PCB.kicad_sch.lck
+
+*/kmk/
+
+**/.DS_Store
+
+
