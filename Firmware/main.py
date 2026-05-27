@@ -11,7 +11,7 @@ from kmk.keys import KC
 from kmk.scanners import DiodeOrientation
 from kmk.modules.encoder import EncoderHandler
 from kmk.modules.layers import Layers
-
+from kmk.extensions.media_keys import MediaKeys
 
 
 
@@ -24,6 +24,7 @@ keyboard.row_pins = (board.GP5, board.GP3)
 keyboard.diode_orientation = DiodeOrientation.COL2ROW
 
 keyboard.modules.append(Layers())
+keyboard.extensions.append(MediaKeys())
 
 # Motor pins/setups thingy
 
@@ -114,17 +115,33 @@ encoder_handler.pins = (
 
 keyboard.keymap = [
     [
-    [KC.TO(2), KC.B, KC.MUTE],
-    [KC.D, KC.E, KC.F]
-    ],
+    [KC.NO, KC.TO(1), KC.NO],
+    [KC.TO(1), KC.TO(2), KC.TO(3)]
+    ], # Transfer layer - like use this to swap to other layers
     [
-    [KC.TO(1), Motor.forward, KC.C],
+    [KC.TO(3), KC.MUTE, KC.TO(0)],
+    [KC.MRWD, KC.MPLY, KC.MFFD]
+    ], # Media layer - why is copilot trying to copy my writing style
+    [
+    [KC.MUTE, KC.LGUI(KC.X), KC.TO(0)],
+    [KC.LGUI(KC.C), KC.LGUI(KC.V), KC.LGUI(KC.LSFT(KC.V))]
+    ], # Cut/copy/paste/clean paste 
+    [
+    [KC.MUTE, KC.LGUI(KC.LSFT(KC.T)), KC.TO(0)],
+    [KC.LGUI(KC.LSFT(KC.N4)), KC.LGUI(KC.LSFT(KC.R)), KC.LGUI(KC.LSFT(KC.W))]
+    ], # Page stuff plus screenshot
+    [
+    [KC.MUTE, Motor.forward, KC.TO(0)],
     [Motor.turn_right, Motor.backward, Motor.turn_right]
-    ],
+    ], # driving layer
 ]
 
-encoder_handler.map = [ (( KC.VOLD, KC.VOLU, KC.MUTE), ( KC.VOLD, KC.VOLU, KC.MUTE), ), # Layer 1
-                      ]
+encoder_handler.map = [ 
+    (( KC.VOLD, KC.VOLU), ( KC.BRIU, KC.BRID), ), # Layer 0
+    (( KC.VOLD, KC.VOLU), ( KC.BRIU, KC.BRID), ), # Layer 1
+    (( KC.VOLD, KC.VOLU), ( KC.BRIU, KC.BRID), ), # Layer 2
+    (( KC.VOLD, KC.VOLU), ( KC.BRIU, KC.BRID), ), # Layer 3
+    ]
 
 
 if __name__ == '__main__':
