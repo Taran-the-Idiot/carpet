@@ -42,11 +42,12 @@ In order to preserve size and packaging, a choice was made to avoid using a batt
 
 CAD Was made in Shapr3d. It is your basic macropad case but also includes 2 wheels that go directly on the motor shafts and are lined with TPU treads for grip.
 
-THe 2 holes on the top of the case exist for the purpose of being able to reach the boot and reset buttons on the microcontroller without having to break open the case.
+The 2 holes on the top of the case exist for the purpose of being able to reach the boot and reset buttons on the microcontroller without having to break open the case.
 
 There are 2 fake wheels on the lower section that exist for the purpose of reducing friction between the pad and the desk due to the lower surface area.
 
-
+STLs for printing can be found at the [Production/Prints](/Production/Prints/) directory.\
+A STEP assembly for editing can be found at the [CAD](/CAD/) directory
 
 ## Firmware
 
