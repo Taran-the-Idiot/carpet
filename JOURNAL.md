@@ -1,6 +1,6 @@
 # A Macropad, that drives????
 
-Total time spent: 18.5 hours
+Total time spent: 19.5 hours
 
 ## 2nd of May
 
@@ -386,6 +386,13 @@ Hours Spent: 7
 Wrote the firmware. 
 
 I used kmk for this and it was pretty easy. Gave it 4 layers and wrote custom functions for the driving. will probably make it more complex later once I get the thing and am able to tinker but this works technically.
+
+Hours spent: 1
+
+
+## 29th of May
+
+Made my BOM and submitted :)
 
 Hours spent: 1
 
