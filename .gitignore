@@ -10,3 +10,4 @@ PCB/~PCB.kicad_sch.lck
 
 
 PCB/.DS_Store
+Firmware/__pycache__

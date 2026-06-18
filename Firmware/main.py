@@ -2,7 +2,6 @@ print("Starting")
 
 from time import sleep
 
-from Firmware.kmk.modules import holdtap, layers
 import board
 import digitalio
 
@@ -17,13 +16,12 @@ from kmk.extensions.media_keys import MediaKeys
 
 keyboard = KMKKeyboard()
 encoder_handler = EncoderHandler()
-keyboard.modules = [layers, holdtap, encoder_handler]
+keyboard.modules = [Layers(), encoder_handler]
 
 keyboard.col_pins = (board.GP0, board.GP1, board.GP4)
 keyboard.row_pins = (board.GP5, board.GP3)
 keyboard.diode_orientation = DiodeOrientation.COL2ROW
 
-keyboard.modules.append(Layers())
 keyboard.extensions.append(MediaKeys())
 
 # Motor pins/setups thingy
@@ -43,13 +41,13 @@ Mot2b.value = False
 
 
 class Motor:
-    async def forward():
+    def forward():
         Mot1a.value = True
         Mot1b.value = False
         Mot2a.value = False
         Mot2b.value = True
 
-        await sleep(0.5)
+        sleep(0.5)
 
         Mot1a.value = False
         Mot1b.value = False
@@ -57,13 +55,13 @@ class Motor:
         Mot2b.value = False
 
 
-    async def backward():
+    def backward():
         Mot1a.value = False
         Mot1b.value = True
         Mot2a.value = True
         Mot2b.value = False
 
-        await sleep(0.5)
+        sleep(0.5)
 
         Mot1a.value = False
         Mot1b.value = False
@@ -72,32 +70,32 @@ class Motor:
 
 
 
-    async def stop():
+    def stop():
         Mot1a.value = False
         Mot1b.value = False
         Mot2a.value = False
         Mot2b.value = False
 
-    async def turn_right():
+    def turn_right():
         Mot1a.value = True
         Mot1b.value = False
         Mot2a.value = True
         Mot2b.value = False
 
-        await sleep(0.5)
+        sleep(0.5)
 
         Mot1a.value = False
         Mot1b.value = False
         Mot2a.value = False
         Mot2b.value = False
 
-    async def turn_left():
+    def turn_left():
         Mot1a.value = False
         Mot1b.value = True
         Mot2a.value = False
         Mot2b.value = True
 
-        await sleep(0.5)
+        sleep(0.5)
 
         Mot1a.value = False
         Mot1b.value = False
